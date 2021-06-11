@@ -11,7 +11,7 @@ def healthcheck():
             status=200,
             mimetype='application/json'
     )
-
+    #logger
     app.logger.info('Status request successfull')
     return response
 
@@ -22,7 +22,7 @@ def metrics():
             status=200,
             mimetype='application/json'
     )
-
+    #logger
     app.logger.info('Metrics request successfull')
     return response
 
