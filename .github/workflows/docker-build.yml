@@ -27,8 +27,8 @@ jobs:
         name: Build & Push
         uses: docker/build-push-action@v2
         with:
-          context: ./solutions/python-helloworld
-          file: ./Dockerfile
+          context: solutions/python-helloworld
+          file: solutions/python-helloworld/Dockerfile
           platforms: linux/amd64
           push: true
           tags: divyansh747/python-helloworld:latest
