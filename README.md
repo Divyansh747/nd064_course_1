@@ -6,3 +6,5 @@
 # Solutions
 
 # Projects
+
+# exercises
