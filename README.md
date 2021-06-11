@@ -4,6 +4,7 @@
 - Python solutions supported
 
 # Solutions
+- go-helloworld project
 
 # Projects
 
